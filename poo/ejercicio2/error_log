@@ -1,0 +1,2 @@
+[24-Apr-2012 22:12:04] PHP Fatal error:  Call to undefined method AmigoImaginario::getNombredientes() in /home6/napsdtco/public_html/poo/ejercicio2/index.php on line 21
+[24-Apr-2012 22:12:10] PHP Fatal error:  Call to undefined method AmigoImaginario::getNombredientes() in /home6/napsdtco/public_html/poo/ejercicio2/index.php on line 21

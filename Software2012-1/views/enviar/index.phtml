@@ -1,0 +1,18 @@
+<h2>Campañas Creadas</h2>
+<?php if(isset($this->campanias) && count($this->campanias)) : ?>
+
+<table>
+    
+    <?php for($i = 0; $i < count($this->campanias); $i++): ?>
+    
+    <tr>
+        
+        <td><?php echo $this->campanias[$i]['descripcion']; ?></td>
+        <td><?php echo $this->campanias[$i]['nombre']; ?></td>
+        <td><a href="<?php echo BASE_URL . 'sector/editar/' . $this->sector[$i]['id_categorias']; ?>">Editar</a></td>
+        <td><a href="<?php echo BASE_URL . 'sector/eliminar/' . $this->sector[$i]['id_categorias']; ?>">Eliminar</a></td>
+    </tr>
+    
+    <?php endfor;?>
+</table>
+<?php endif; ?>
